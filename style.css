@@ -1,0 +1,42 @@
+.advsearchdiv {
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+.atw {
+    padding: 10px 5px;
+
+   
+}
+
+.tewop {
+    padding: 10px 5px;
+}
+
+.aotw {
+    padding: 10px 5px;
+}
+
+.notw {
+    padding: 10px 5px;
+}
+
+.nrf {
+    padding: 10px 5px;
+}
+
+.button {
+    padding: 10px 500px;
+}
+
+input[type=submit] {
+    border-radius: 12px;
+    color: rgb(4, 4, 4);
+    background-color: rgb(188, 206, 251);
+    font-size: 10;
+    width: 135px;
+    height: 35px;
+    border: none;
+    margin: 0;
+    padding: 0px 0px;
+   }
