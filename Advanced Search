@@ -11,13 +11,13 @@
   <header>
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="https://www.google.com/search">Google Search</a>
+        <a class="nav-link active" aria-current="page" href="index.html">Google Search</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.google.com/imghp?hl=en">Image Search</a>
+        <a class="nav-link" href="image_search.html">Image Search</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.google.com/advanced_search">Advanced Search</a>
+        <a class="nav-link" href="advanced_search.html">Advanced Search</a>
       </li>
     </ul>
   </header>
