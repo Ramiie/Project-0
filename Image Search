@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Advanced Search</title>
+    <title>Image Search</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
-    
+
   <header>
     <ul class="nav justify-content-end">
       <li class="nav-item">
@@ -22,39 +21,13 @@
     </ul>
   </header>
 
-  <body>
-    <div class="advsearchdiv">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
-      <h3>Advanced Search</h3>
-      <form action="https://google.com/search">
-    </div>
+  <div class="position-absolute top-50 start-50 translate-middle">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q">
+      <input type="hidden" name="tbm" value="isch">
+      <input type="submit" value="Image Search">
+    </form>
+  </div>
 
-      <div class="atw">
-        <label>All these words: </label>
-        <input type="text" name="qq">
-      </div>
-      <div class="tewop">
-        <label>This exact word or phrase: </label>
-        <input type="text" name="as_q">
-      </div>
-
-      <div class="aotw">
-        <label>Any of these words: </label>
-        <input type="text" name="as_qq">
-      </div>
-
-      <div class="notw">
-        <label>None these words: </label>
-        <input type="text" name="as_qqq">
-      </div>
-
-      <div class="nrf">
-        <label>Numbers ranging from: </label> <input type="text" name="as_nlo"> to:  <input type="text" name="as_nhi">
-      </div>
-       
-      <div class="button">
-       <input type="submit" value="Advanced Search">
-      </div>
-
-  </body>
 </html>
